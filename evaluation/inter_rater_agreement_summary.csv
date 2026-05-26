@@ -1,0 +1,9 @@
+metric,value
+n_trajectories,1000.0
+n_analysts,3.0
+n_flagged_spoofed_sample,500.0
+n_not_flagged_clean_sample,500.0
+n_full_agreement,925.0
+n_partial_disagreement,75.0
+percent_full_agreement,92.5
+fleiss_kappa,0.9

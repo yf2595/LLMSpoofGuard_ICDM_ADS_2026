@@ -1,0 +1,9 @@
+# Optional: local open-weight LLM backends (A100 / CUDA)
+# Install after base requirements:
+#   pip install -r requirements.txt
+#   pip install -r requirements-llm-local.txt
+
+transformers>=4.44.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
