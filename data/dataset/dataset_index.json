@@ -1,0 +1,40 @@
+{
+  "n_segments": 61565,
+  "n_points": 1145997,
+  "n_spoofed": 6156,
+  "spoof_rate": 0.1,
+  "shards": [
+    "llmspoofguard_2024_11.csv",
+    "llmspoofguard_2024_12.csv",
+    "llmspoofguard_2025_01.csv",
+    "llmspoofguard_2025_02.csv",
+    "llmspoofguard_2025_03.csv",
+    "llmspoofguard_2025_04.csv",
+    "llmspoofguard_2025_05.csv",
+    "llmspoofguard_2025_06.csv"
+  ],
+  "manifest": "trajectory_manifest.csv",
+  "columns": [
+    "icao24",
+    "callsign",
+    "origin_country",
+    "time_position",
+    "last_contact",
+    "longitude",
+    "latitude",
+    "baro_altitude",
+    "on_ground",
+    "velocity",
+    "true_track",
+    "vertical_rate",
+    "sensors",
+    "geo_altitude",
+    "squawk",
+    "spi",
+    "position_source",
+    "country",
+    "trajectory_id",
+    "is_spoofed",
+    "spoof_category"
+  ]
+}
